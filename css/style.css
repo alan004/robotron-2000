@@ -35,6 +35,19 @@ main {
     margin: 0;
     flex-basis: 40%;
     position: relative;
+    width: 50%;
+}
+
+.alterar {
+    margin: 2px;
+    width: 200px;
+}
+
+.botoes {
+   position: relative;
+   right: -50%;
+   bottom: 3%;
+   display: flex;
 }
 
 .robo {
@@ -42,7 +55,7 @@ main {
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: 5%;
 }
 
 .titulo {
@@ -62,7 +75,8 @@ main {
     background: rgba(0,0,0,0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
-    height: 80%;
+    height: 100%;
+    margin-top: 5%;
 }
 
 /****************************** Equipamentos *****/
@@ -73,6 +87,7 @@ main {
 
 .montador {
     height: 100%;;
+    margin-top: 18%;
 }
 
 .montador-conteudo {
@@ -208,6 +223,7 @@ main {
     flex-basis: 35%;
     margin: 10px 0 0;
 }
+
 
 @media screen and (max-width: 1600px) {
     body { 
